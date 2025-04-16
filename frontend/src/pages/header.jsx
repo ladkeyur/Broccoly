@@ -54,7 +54,7 @@ const Header = () =>{
           <Col className="btn btn-outline-success mx-1 singup">
           <span>
             <FaRegUser/>
-            <div className="login_sub">
+            <div className="login_sub bg-white">
               <div className="d-flex flex-column text-start ">
                 <Link className="p-3 border-bottom text-black text-decoration-none">
                     Sing in

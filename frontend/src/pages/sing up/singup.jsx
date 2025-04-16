@@ -6,11 +6,11 @@ import { Link } from "react-router-dom"
 const Singup = () =>{
     return(
         <>
-            <div className="bg-image mb-0">
+            <div className="bg-image">
                 <Container className="container">
                     <Row>
                         <Col>
-                            <div className="d-flex justify-content-between align-items-center">
+                            <Col className="d-flex justify-content-between align-items-center">
                                 <div>
                                     <h6 className="s-color">//WLECOME TO OUR COMPANY</h6>
                                     <h1 className="font-weight-bold text-white" style={{fontSize:"60px"}}>Sing Up</h1>
@@ -19,11 +19,12 @@ const Singup = () =>{
                                     <Link to="/" className="border-end pe-2 text-light text-decoration-none">Home</Link>
                                     <span className="text-white">Register</span>
                                 </div>
-                            </div>
+                            </Col>
                         </Col>
                     </Row>
                 </Container>
             </div>
+
         </>
     )
 }
