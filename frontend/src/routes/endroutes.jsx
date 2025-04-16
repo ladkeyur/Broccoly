@@ -5,6 +5,7 @@ import Shop from "../pages/Shop"
 import Service from "../pages/Service"
 import Product from "../pages/product";
 import Contactus from "../pages/Contactus";
+import Singup from "../pages/sing up/singup";
 import { Route, Routes } from "react-router-dom";
 
 const EndRoutes = () =>{
@@ -17,6 +18,7 @@ const EndRoutes = () =>{
                 <Route path="/Aboutus" element={<Aboutus/>}/>
                 <Route path="/Service" element={<Service/>}/>
                 <Route path="/Contactus"element={<Contactus/>}/>
+                <Route path="/Singup" element={<Singup/>}/>
             </Route>
         </Routes>
     )

@@ -1,7 +1,11 @@
-.login_main:hover .login_sub{
+.singup:hover .login_sub{
     opacity: 1;
     visibility: visible;
 }
+
+body{
+    font-family: "Roboto", sans-serif !important;
+  }
 
 .login_sub{
     position: absolute;
@@ -10,6 +14,24 @@
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
-    right: 7%;
-    top: 100%;
+    right: 15%;
+    top:80%;
+}
+
+.container{
+    width: 1200px !important;
+}
+
+.bg-image{
+    background-image: url(https://broccoli-omega.vercel.app/img/bg/9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 250px;
+    padding-bottom: 130px;
+    /* margin-bottom: 120px; */
+}
+
+.s-color{
+    color: #80b500;
 }
