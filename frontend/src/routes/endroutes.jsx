@@ -7,6 +7,7 @@ import Product from "../pages/product";
 import Contactus from "../pages/Contactus";
 import Singup from "../pages/sing up/singup";
 import { Route, Routes } from "react-router-dom";
+import Singin from "../pages/sing up/singin";
 
 const EndRoutes = () =>{
     return(
@@ -19,6 +20,7 @@ const EndRoutes = () =>{
                 <Route path="/Service" element={<Service/>}/>
                 <Route path="/Contactus"element={<Contactus/>}/>
                 <Route path="/Singup" element={<Singup/>}/>
+                <Route path="/Singin" element={<Singin/>}/>
             </Route>
         </Routes>
     )
